@@ -4,7 +4,7 @@ import { Flex, Box, Input, Button } from "@chakra-ui/react"
 
 export default function Footer (){
     return (
-        <Flex w="100%" justifyContent="space-between" p="3.5" bgColor="#333333" px="10" color="white" flexWrap="wrap" >
+        <Flex bottom="0" w="100%" justifyContent="space-between" p="3.5" bgColor="#333333" px="10" color="white" flexWrap="wrap" >
             <Flex gap="2.5" fontSize="md" fontWeight="400">
                 <a>About </a>
                 <a>Services</a>
