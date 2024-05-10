@@ -61,31 +61,33 @@ export default function Hero() {
           </Text>
         </Box>
       </Link>
-      <Box w="100%" h="30vh" position="relative" cursor="pointer" >
-        <Image
-          src={staticAssets.hero3}
-          alt="hero-1"
-          w="100%"
-          h="100%"
-          objectFit="cover"
-          zIndex="-1"
-          __css={{
-            filter: " blur(0.5px) contrast(80%) ",
-          }}
+      <Link href="/courses">
+        <Box w="100%" h="30vh" position="relative" cursor="pointer" >
+          <Image
+            src={staticAssets.hero3}
+            alt="hero-1"
+            w="100%"
+            h="100%"
+            objectFit="cover"
+            zIndex="-1"
+            __css={{
+              filter: " blur(0.5px) contrast(80%) ",
+            }}
 
-        />
-        <Text
-          position="absolute"
-          top="50%"
-          left="50%"
-          fontSize={{ base: "2xl", md: "3xl", lg: "5xl" }}
-          fontWeight="600"
-          color="white"
-          transform="translate(-50%, -50%)"
-        >
-          Courses
-        </Text>
-      </Box>
+          />
+          <Text
+            position="absolute"
+            top="50%"
+            left="50%"
+            fontSize={{ base: "2xl", md: "3xl", lg: "5xl" }}
+            fontWeight="600"
+            color="white"
+            transform="translate(-50%, -50%)"
+          >
+            Courses
+          </Text>
+        </Box>
+      </Link>
       <Info />
     </Box>
   );
