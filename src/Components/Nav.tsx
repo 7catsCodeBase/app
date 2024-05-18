@@ -38,7 +38,7 @@ export default function Nav() {
         aria-label="Search database"
         size="lg"
         position="fixed"
-        borderRadius="50%"
+        borderRadius="50% 50% 50% 6%"
         icon={
           <FaWhatsapp
             style={{
